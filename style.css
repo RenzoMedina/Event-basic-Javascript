@@ -39,8 +39,16 @@
     grid-template-columns: repeat(6, 1fr);
     gap:10px;
 }
-.box{
-    width: 200px;
+.azul{
+    width: 180px;
+    height: 180px;
+    border: 1px solid rgba(0, 0, 0, .45);
+    padding: .8em;
+    border-radius:13px;
+}
+.rojo{
+    width: 180px;
+    height: 180px;
     border: 1px solid rgba(0, 0, 0, .45);
     padding: .8em;
     border-radius:13px;
