@@ -4,26 +4,17 @@ const btnBlue = document.getElementById('btn2')
 const updateBlue = document.getElementById('btn3')
 const btnDeleteRed = document.getElementById('btn4')
 const btnDelete = document.getElementById('btn5')
-
 const cardBox = document.getElementById('card-box')
 
 //img
-let rojo = "Img/rojo.jpeg"
-let azul = "Img/azul.jpg"
+const rojo = "Img/rojo.jpeg"
+const azul = "Img/azul.jpg"
 
 //event mouse to the buttons
-btnRojo.addEventListener('click', ()=>{
-    addRojo()
-})
-btnDelete.addEventListener('click', ()=>{
-    deleteBox()
-})
-btnBlue.addEventListener('click', ()=>{
-    addBlue()
-})
-btnDeleteRed.addEventListener('click', ()=>{
-    deleteRed()
-})
+btnRojo.addEventListener('click', ()=>{addRojo()})
+btnDelete.addEventListener('click', ()=>{deleteBox()})
+btnBlue.addEventListener('click', ()=>{addBlue()})
+btnDeleteRed.addEventListener('click', ()=>{deleteRed()})
 updateBlue.addEventListener('click', ()=>{upBlues()})
 
 //function addRojo
